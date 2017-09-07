@@ -2,9 +2,11 @@ class evenno {
 
 	public static void main(String args[]) {
 
+		final long startTime = System.nanoTime();
+
 		int rrk;
 
-		for (rrk = 2; rrk <=10000; rrk++) {
+		for (rrk = 2; rrk <=100000; rrk++) {
 
 			if (rrk % 2 == 0){
 
@@ -14,5 +16,11 @@ class evenno {
 
 			
 		}
-	}
+	   
+
+	   	final long duration = System.nanoTime();
+	
+	   	System.out.println(duration);
+	}   
+
 }
