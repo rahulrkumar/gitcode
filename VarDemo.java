@@ -11,6 +11,7 @@ class VarDemo {
 		System.out.println(google);
 
 		System.out.println("I just typed the value of google");
-		
+
+		System.out.println("Is apple better than google ? ");
 	}
 }
