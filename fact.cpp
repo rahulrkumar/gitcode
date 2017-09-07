@@ -17,6 +17,6 @@ int main()
   			fact = fact * i;
 
   		}
-  			cout << " Factorial = " << fact;
+  			cout << " Factorial =" << fact;
 }
 
